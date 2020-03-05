@@ -1,2 +1,10 @@
 ####owner Poonam Maher####
-This repo is for nginx-alpine image to enable brotli 
+In this Repo, we are using alpine image on which nginx will install with a third party module brotli.
+
+By default brotli is not supported by nginx so that we have to use module provided by google
+
+What is Brotli?
+Brotli is a data format specification for data streams compressed with a specific combination of the general-purpose LZ77 lossless compression algorithm, Huffman coding and 2nd order context modelling.
+
+In simple word
+Brotli is an open source, lossless data compression algorithm with a better compression density than gzip that reduces bandwidth consumption and helps content load faster. ... In addition, Google, the creator of brotli, says that it's 20-26% more performant than the other compression algorithm it made called zopfli.
